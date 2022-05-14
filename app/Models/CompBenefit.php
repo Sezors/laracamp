@@ -10,5 +10,5 @@ class CompBenefit extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $fillable = ['user_id', 'came_id', 'expired', 'cvc', 'is_paid'];
+    protected $fillable = ['came_id', 'name'];
 }
